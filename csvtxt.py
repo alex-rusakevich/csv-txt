@@ -1,4 +1,4 @@
-import sys, re
+import sys
 
 if __name__ == "__main__":
     file_data = open(sys.argv[1], "r", encoding="utf8").read().split("\n")
